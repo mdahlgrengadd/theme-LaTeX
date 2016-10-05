@@ -4,6 +4,20 @@ This Gitbook theme uses [Typeset](https://github.com/bramstein/typeset) as an im
 
 ![Image](https://raw.github.com/mdahlgrengadd/theme-LaTeX/master/screenshot.png)
 
+# USAGE
+
+You might have to add the following to website.css in your book.
+
+```css
+.book.font-size-0 .book-body .page-inner section {
+    font-size: inherit !important;
+}
+
+.book.font-family-0 {
+    font-family: inherit !important;
+}
+````
+
 # TODO
 - Fix broken support for images
 - Fix so that different fonts & sizes work
