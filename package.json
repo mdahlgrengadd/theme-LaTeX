@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-theme-latex",
   "description": "LaTeX style theme for GitBook",
   "main": "./index.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "engines": {
     "gitbook": ">=3.0.0"
   },
