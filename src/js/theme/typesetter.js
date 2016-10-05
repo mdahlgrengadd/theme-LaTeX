@@ -206,7 +206,7 @@ function init(opts) {
 
 // When page changed, reset buttons
 gitbook.events.on('page.change', function() {
-    //updateAllButtons();
+    init();
 });
 
 module.exports = {
