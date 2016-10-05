@@ -1,8 +1,8 @@
 {
-  "name": "gitbook-plugin-theme-default",
-  "description": "Default theme for GitBook",
+  "name": "gitbook-plugin-theme-latex",
+  "description": "LaTeX style theme for GitBook",
   "main": "./index.js",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "engines": {
     "gitbook": ">=3.0.0"
   },
@@ -25,17 +25,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/theme-default.git"
+    "url": "https://github.com/mdahlgrengadd/theme-LaTeX.git"
   },
-  "author": "FriendCode Inc. <contact@gitbook.com>",
+  "author": "Martin Dahlgren <mdahlgrengadd@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/theme-default/issues"
+    "url": "https://github.com/mdahlgrengadd/theme-LaTeX/issues"
   },
   "contributors": [
     {
-      "name": "Samy Pessé",
-      "email": "samy@gitbook.com"
+      "name": "Martin Dahlgren",
+      "email": "mdahlgrengadd@gmail.com"
     }
   ],
   "gitbook": {
