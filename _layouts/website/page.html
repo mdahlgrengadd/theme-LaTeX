@@ -23,8 +23,6 @@
     <script src="{{ "lib/en-us.js"|resolveAsset }}"></script>
     <script src="{{ "theme.js"|resolveAsset }}"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
     {% for resource in plugins.resources.js %}
         {% if resource.url %}
         <script src="{{ resource.url }}"></script>
@@ -92,7 +90,7 @@
             gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
         });
     </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript">
             jQuery(function ($) {
                 var lineLength = 0,
