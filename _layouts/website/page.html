@@ -17,6 +17,14 @@
 {% block javascript %}
     <script src="{{ "gitbook.js"|resolveAsset }}"></script>
     <script src="{{ "theme.js"|resolveAsset }}"></script>
+    <script src="{{ "linked-list.js"|resolveAsset }}"></script>
+    <script src="{{ "linebreak.js"|resolveAsset }}"></script>
+    <script src="{{ "lib/hypher.js"|resolveAsset }}"></script>
+    <script src="{{ "lib/en-us.js"|resolveAsset }}"></script>
+    <script src="{{ "theme.js"|resolveAsset }}"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
     {% for resource in plugins.resources.js %}
         {% if resource.url %}
         <script src="{{ resource.url }}"></script>
@@ -85,12 +93,6 @@
         });
     </script>
 
-
-      <script type="text/javascript" src="assets/linked-list.js"></script>
-        <script type="text/javascript" src="assets/linebreak.js"></script>
-        <script type="text/javascript" src="assets/lib/hypher.js"></script>
-        <script type="text/javascript" src="assets/lib/en-us.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
         <script type="text/javascript">
             jQuery(function ($) {
                 var lineLength = 0,
