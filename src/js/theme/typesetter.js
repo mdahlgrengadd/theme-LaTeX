@@ -22,7 +22,7 @@ function init(opts) {
                     return cache[str];
                 }
 
-                lineLength = $('#typeset').width();
+                lineLength = $('#typeset').width()-16;
 
                 ruler = $('<div class="ruler">&nbsp;</div>').css({
                     visibility: 'hidden',
